@@ -4,7 +4,7 @@ from python_basic_template.utils.file_utils import ensure_dir
 from python_basic_template.settings.logging_provider import LoggingConfigProvider
 
 
-PROJECT_NAME = 'python_general'
+PROJECT_NAME = 'python_basic_template'
 DEBUG = True
 BASE_DATA_DIR = Path(__file__).parent.parent.parent.parent / 'data'
 
