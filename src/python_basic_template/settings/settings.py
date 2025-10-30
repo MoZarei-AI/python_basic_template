@@ -13,9 +13,6 @@ class DataDirs:
     BASE = ensure_dir(BASE_DATA_DIR)
     RAW = ensure_dir(BASE_DATA_DIR / 'raw')
     INTERIM = ensure_dir(BASE_DATA_DIR / 'interim')
-    TS_RAW = ensure_dir(BASE_DATA_DIR / 'timeseries' / 'raw')
-    TS_INTERIM = ensure_dir(BASE_DATA_DIR / 'timeseries' / 'interim')
-
 
 
 logging_provider = LoggingConfigProvider(
